@@ -5,7 +5,7 @@ export const users = [
         email: "luffy@mugiwara.com",
         password: "strawhat",
         roles: ["captain"],
-        permissions: ["read:own_user"]
+        permissions: ["read:own_user", "read:any_user"]
     },
     {
         id: "2",
