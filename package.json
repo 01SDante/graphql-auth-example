@@ -1,0 +1,30 @@
+{
+  "name": "graphql-auth-example",
+  "version": "1.0.0",
+  "description": "Basic example of authentication and authorization using GraphQL with Apollo and Express.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --require esm ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01SDante/graphql-auth-example.git"
+  },
+  "keywords": [],
+  "author": "dante rené sack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/01SDante/graphql-auth-example/issues"
+  },
+  "homepage": "https://github.com/01SDante/graphql-auth-example#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "graphql-middleware": "^4.0.2",
+    "graphql-shield": "^7.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.6"
+  }
+}
